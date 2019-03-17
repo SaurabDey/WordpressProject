@@ -14,5 +14,7 @@ public class DashboardClass {
     {
     	 WebElement clickPost=  driver.findElement(By.xpath("//div[text()='Posts']"));
          clickPost.click();
+         
+         System.out.println("This is selenium class");
     }
 }
